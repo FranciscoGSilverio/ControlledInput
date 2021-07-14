@@ -14,7 +14,7 @@ function check() {
     }
     if (inputValue > 10 && inputValue < 20) {
       mesage.innerText = "Congrats!";
-      mesageParent.className = "alert alert-sucess";
+      mesageParent.className = "alert alert-success";
 
     } else {
       mesage.innerText = `Error: Not a valid number, try using something from 10 to 20.`;
